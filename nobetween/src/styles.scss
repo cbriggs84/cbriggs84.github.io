@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #262626;
+    font-size: 12px;
+}
+
+.mat-button.mat-primary {
+    background-color: darkolivegreen;
+    color: #262626;
+}
+
+.mat-form-field-appearance-fill.login-fields .mat-form-field-flex {
+    background-color: #7f7f7f;
+    color: #262626;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #7f7f7f inset !important;
+}
