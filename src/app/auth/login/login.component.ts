@@ -36,4 +36,9 @@ export class LoginComponent implements OnInit
 		this.router.navigate(['/reset'], { state: {} });
 	}
 
+	onLogin_Click()
+	{
+		this.router.navigate(['/dashboard'], { state: {} });
+	}
+
 }
